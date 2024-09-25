@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(253, 84, 84);
+    color: black;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.filter, .freizeitanlagen-list {
+    margin-bottom: 20px;
+}
+
+.freizeitanlage {
+    margin-bottom: 15px;
+}
+
+.freizeitanlage img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-top: 10px;
+}
+
+.darkmode-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.darkmode-btn:hover {
+    background-color: #555;
+}
